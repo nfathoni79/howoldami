@@ -47,7 +47,8 @@ const currentYear = new Date().getFullYear()
   <div class="mx-auto max-w-sm min-h-screen
     flex flex-col justify-center gap-8 px-4 py-8 text-center text-gray-800">
     <input type="date" v-model="birthDate"
-      class="block mx-auto focus:border-green-500 focus:ring-green-500" />
+      class="block mx-auto text-center
+      focus:border-green-500 focus:ring-green-500" />
 
     <div class="flex flex-col gap-4">
       <p class="text-4xl font-semibold uppercase">I am</p>
